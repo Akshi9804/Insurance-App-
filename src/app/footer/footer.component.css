@@ -1,0 +1,15 @@
+ul{
+    list-style: none;
+}
+.footer-item{
+    width: 50%;
+}
+.footItem1{
+    width: 50%;
+}
+
+@media screen and (max-width: 640px) {
+    .footItem1{
+        width: 80%;
+    }
+  }

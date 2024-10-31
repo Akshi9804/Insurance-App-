@@ -1,0 +1,58 @@
+.section1 button{
+    width: 30%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Styles for screens between 768px and 1024px */
+    .section1 button{
+        width: 40%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .section1 button{
+        width: 45%;
+    }
+  }
+  .section2 img{
+    width: 80px;
+  }
+
+  .section2 .heading,.section3 .heading, .section4 .heading{
+    width: 50%;
+  }
+
+  .service{
+    background-image: url("../assets/img2.jpg");
+    height: 300px;
+    width: 300px;
+  }
+  .imageText{
+    width: 75%;
+  }
+  @media screen and (min-width:768px) and (max-width: 1024px) {
+    .service{
+        height: 250px;
+        width: 250px;
+    }
+    .imageText{
+        font-size: smaller;
+        width: 90%;
+        left: 13px;
+    }
+  }
+
+  @media screen and (min-width:768px) and (max-width: 870px) {
+    .service{
+        height: 200px;
+        width: 200px;
+    }
+    .imageText{
+        width: 90%;
+        left: 11px;
+    }
+  }
+
+.text{
+    width: 50%;
+  }
+ 
